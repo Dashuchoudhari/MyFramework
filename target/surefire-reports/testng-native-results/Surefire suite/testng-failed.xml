@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.Test.TestRegistration">
+        <methods>
+          <include name="clickOnVerify"/>
+          <include name="InvalidInputMobileNumber"/>
+          <include name="SelectCountryCode"/>
+          <include name="verifyInputBirthYear"/>
+          <include name="verifyInputPassward"/>
+          <include name="tearDown"/>
+          <include name="start"/>
+          <include name="verifyLaststName"/>
+          <include name="InputMobileNumber"/>
+          <include name="verifyNewEmail"/>
+          <include name="verifyFirstName"/>
+          <include name="EmtyInputMobileNumber"/>
+        </methods>
+      </class> <!-- com.Test.TestRegistration -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
